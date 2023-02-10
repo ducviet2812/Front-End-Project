@@ -1,0 +1,55 @@
+.wrapper{
+    display: flex;
+    
+}
+.logo{
+    font-size: 30px;
+    color: white;
+}
+.infomation{
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right:20px ;
+}
+.Chat{
+    font-size: 26px;
+    color: white;
+    margin-right: 40px;
+    &:hover{
+        cursor: pointer;
+        opacity: 0.4;
+    }
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    image-rendering: pixelated;
+}
+.GroupAction{
+    padding: 12px 20px;
+    position: relative;
+    button{
+       
+        background-color: transparent;
+        border-color: transparent;
+        font-size: 16px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+}
+.GroupActionChildren{
+    position: relative;
+}
+.underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 50px;
+    background-color:var(--main_color);
+    transition: all 0.2s;
+}
